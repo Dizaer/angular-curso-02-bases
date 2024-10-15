@@ -17,4 +17,11 @@ export class HeroComponent {
     return `${ this.name } - ${ this.age }`
   }
 
+  changeHero():void {
+    this.name = 'espiderman'
+  }
+
+  changeAge():void {
+    this.age = 25
+  }
 }
