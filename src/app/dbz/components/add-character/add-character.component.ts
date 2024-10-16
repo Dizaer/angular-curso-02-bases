@@ -13,7 +13,7 @@ export class AddCharacterComponent {
 
   public character: Character = {
     name: '',
-    power: undefined
+    power: 0
   };
 
   emitCharacter():void {
@@ -22,7 +22,7 @@ export class AddCharacterComponent {
 
     this.onNewCharacter.emit(this.character);
 
-    this.character = {name: '', power: undefined };
+    this.character = {name: '', power: 0 };
   }
   
 }
