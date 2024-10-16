@@ -3,6 +3,7 @@ services:
     image: angular:17
     ports:
       - "4200:4200"
+      - "8080:8080"
     volumes:
       - .:/app
     working_dir: /app
